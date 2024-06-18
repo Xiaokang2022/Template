@@ -1,7 +1,8 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug"]
+labels: "bug"
+
 body:
   - type: markdown
     attributes:
@@ -45,9 +46,7 @@ body:
       description: | 
         What bugs did you find?  
         你发现了什么错误？
-      placeholder: |
-        Tell us what you see!  
-        告诉我们你看到了什么！
+      placeholder: Tell us what you see!  
     validations:
       required: true
   - type: textarea
@@ -72,7 +71,9 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      description: |
+        By submitting this issue, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md).  
+        提交此问题，即表示您同意遵守我们的[行为准则](./CODE_OF_CONDUCT.md)。
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
