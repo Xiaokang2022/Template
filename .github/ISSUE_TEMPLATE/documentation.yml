@@ -1,5 +1,5 @@
 name: 📑 Documentation
-description: Suggest an idea for this project.
+description: Create a report to help us improve the documentation.
 labels: "documentation"
 
 body:
@@ -15,12 +15,13 @@ body:
       description: |
         Link to any documentation or examples that you are referencing.  
         链接到您正在引用的任何文档或示例。
+      placeholder: ex. https://example.com
     validations:
       required: false
   - type: textarea
     id: problem
     attributes:
-      label: 🎯 Problem
+      label: ⚡Problem
       description: |
         What is missing, unclear, or wrong in the documentation?  
         文档中缺少、不清楚或错误的内容是什么？
