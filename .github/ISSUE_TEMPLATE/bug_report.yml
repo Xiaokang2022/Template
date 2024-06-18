@@ -10,8 +10,8 @@ body:
         Thanks for taking the time to fill out this bug report! ❤️  
         感谢您抽出宝贵时间填写此错误报告！❤️
 
-        ⚠️ Attention! Before initiating an issue, please search for existing issues related to your issue to avoid initiating duplicate issues.  
-        ⚠️ 请注意！在发起 issue 之前，请先搜索是否存在已有 issue 与你的问题相关，以避免发起内容重复的 issue。
+        Please read [Contribution Guideline](../CONTRIBUTING.md) before completing this report.
+        请在填写此报告前先阅读[贡献指南](../CONTRIBUTING.md)。
   - type: dropdown
     id: version
     attributes:
