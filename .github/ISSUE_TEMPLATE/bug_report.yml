@@ -23,15 +23,21 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: platform
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: platform
+      description: |
+        Which platform are you using?  
+        您使用的是哪个平台？
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Windows 11
+        - Windows 10
+        - Linux
+        - macOS
+        - Other
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
