@@ -8,19 +8,19 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!  
         感谢您抽出宝贵时间填写此错误报告！
-    - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: |
-        Which version of the project are you using?  
-        您使用的是本项目的哪个版本？
-      options:
-        - Latest Stabe Version (Default)
-        - Development Version
-      default: 0
-    validations:
-      required: true
+  - type: dropdown
+  id: version
+  attributes:
+    label: Version
+    description: |
+      Which version of the project are you using?  
+      您使用的是本项目的哪个版本？
+    options:
+      - Latest Stabe Version (Default)
+      - Development Version
+    default: 0
+  validations:
+    required: true
   - type: dropdown
     id: platform
     attributes:
