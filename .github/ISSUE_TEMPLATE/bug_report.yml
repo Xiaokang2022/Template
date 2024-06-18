@@ -1,15 +1,13 @@
-name: Bug Report
-description: File a bug report.
+name: Bug Report / 错误报告
+description: File a bug report / 提交错误报告
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report!  
+        感谢您抽出宝贵时间填写此错误报告！
   - type: input
     id: contact
     attributes:
