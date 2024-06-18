@@ -45,8 +45,9 @@ body:
       description: | 
         What bugs did you find?  
         你发现了什么错误？
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      placeholder: |
+        Tell us what you see!  
+        告诉我们你看到了什么！
     validations:
       required: true
   - type: textarea
@@ -61,7 +62,9 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      description: |
+        How can we get in touch with you if we need more info?  
+        如果需要更多信息，我们如何与您取得联系？
       placeholder: ex. email@example.com
     validations:
       required: false
