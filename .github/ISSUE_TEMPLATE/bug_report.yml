@@ -1,6 +1,5 @@
 name: 🐞 Bug Report
 description: File a bug report.
-title: "[Bug]: <TITLE>"
 labels: "bug"
 
 body:
@@ -10,8 +9,8 @@ body:
         Thanks for taking the time to fill out this bug report! ❤️  
         感谢您抽出宝贵时间填写此错误报告！❤️
 
-        Please read [Contribution Guideline](../CONTRIBUTING.md) before completing this report.
-        请在填写此报告前先阅读[贡献指南](../CONTRIBUTING.md)。
+        Please read our [Contribution Guideline](../CONTRIBUTING.md) before completing this report.
+        请在填写此报告前先阅读我们的[贡献指南](../CONTRIBUTING.md)。
   - type: dropdown
     id: version
     attributes:
@@ -48,7 +47,7 @@ body:
       label: ❓What Happened
       description: |
         What bugs did you find?  
-        你发现了什么错误？
+        您发现了什么错误？
       placeholder: Tell us what you see!  
     validations:
       required: true
@@ -63,7 +62,7 @@ body:
   - type: textarea
     id: extra
     attributes:
-      label: ✏️ Extra Infomation
+      label: ✏️ Extra Information
       description: |
         You can add some extra information here.  
         您可以在这里添加一些额外的信息。
@@ -82,7 +81,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: 📙 Code of Conduct
+      label: ⚠️ Code of Conduct
       description: |
         By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).  
         提交此问题，即表示您同意遵守我们的[行为准则](../CODE_OF_CONDUCT.md)。
