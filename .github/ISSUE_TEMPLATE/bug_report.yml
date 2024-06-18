@@ -1,6 +1,6 @@
-name: Bug Report
+name: 🐞 Bug Report
 description: File a bug report.
-title: "[Bug]: "
+title: "[Bug]: <TITLE>"
 labels: "bug"
 
 body:
@@ -9,10 +9,12 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report! ❤️  
         感谢您抽出宝贵时间填写此错误报告！❤️
+        If you want to ask a question, we assume that you have read the available Documentation.If you still don't find an answer you're happy with, you can start an issue and we'll get back to you as quickly as possible. However, before initiating an issue, please search for existing issues related to your issue to avoid initiating duplicate issues.  
+        如果您想提出问题，我们假设您已经阅读了可用的文档。如果仍然没有找到您满意的答案，您可以发起一个 issue，我们将尽可能快地给出答复。但在发起 issue 之前，请先搜索是否存在已有 issue 与你的问题相关，以避免发起内容重复的 issue。
   - type: dropdown
     id: version
     attributes:
-      label: Version
+      label: 🔖 Version
       description: |
         Which version of the project are you using?  
         您使用的是本项目的哪个版本？
@@ -26,7 +28,7 @@ body:
   - type: dropdown
     id: platform
     attributes:
-      label: Platform
+      label: 🔥 Platform
       description: |
         Which platform are you using?  
         您使用的是哪个平台？
@@ -42,7 +44,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
+      label: ❓What Happened
       description: |
         What bugs did you find?  
         你发现了什么错误？
@@ -52,7 +54,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: 📑 Relevant Log Output
       description: |
         Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.  
         请复制并粘贴任何相关的日志输出。这将自动格式化为代码，因此无需反引号。
@@ -60,7 +62,7 @@ body:
   - type: textarea
     id: extra
     attributes:
-      label: Extra Infomation
+      label: ✏️ Extra Infomation
       description: |
         You can add some extra information here.  
         您可以在这里添加一些额外的信息。
@@ -69,7 +71,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
+      label: ✉️ Contact Details
       description: |
         How can we get in touch with you if we need more info?  
         如果需要更多信息，我们如何与您取得联系？
@@ -79,7 +81,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
+      label: 📙 Code of Conduct
       description: |
         By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).  
         提交此问题，即表示您同意遵守我们的[行为准则](../CODE_OF_CONDUCT.md)。
