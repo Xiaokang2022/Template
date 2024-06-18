@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!  
-        感谢您抽出宝贵时间填写此错误报告！
+        Thanks for taking the time to fill out this bug report! ❤️  
+        感谢您抽出宝贵时间填写此错误报告！❤️
   - type: dropdown
     id: version
     attributes:
@@ -25,7 +25,7 @@ body:
   - type: dropdown
     id: platform
     attributes:
-      label: platform
+      label: Platform
       description: |
         Which platform are you using?  
         您使用的是哪个平台？
@@ -42,7 +42,9 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: | 
+        What bugs did you find?  
+        你发现了什么错误？
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
@@ -51,7 +53,9 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: |
+        Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.  
+        请复制并粘贴任何相关的日志输出。这将自动格式化为代码，因此无需反引号。
       render: shell
   - type: input
     id: contact
