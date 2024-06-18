@@ -12,10 +12,13 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: |
+        Which version are you using?  
+        您使用的是哪个版本？
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Latest Stable Version (Default)
+        - Latest Development version
+        - Other Version
       default: 0
     validations:
       required: true
