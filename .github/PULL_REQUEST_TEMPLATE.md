@@ -1,9 +1,8 @@
-<!--
-Thank you so much for your PR!  To help us review your contribution, please check
-out the development guide https://matplotlib.org/devdocs/devel/index.html
--->
+<!-- Thank you so much for your PR!❤️ -->
 
-## PR summary
+📑 PR Summary
+--------------
+
 <!-- Please provide at least 1-2 sentences describing the pull request in detail
 (Why is this change required?  What problem does it solve?) and link to relevant
 issues and PRs.
@@ -13,8 +12,9 @@ non-numeric input to set_xlim" and avoid non-descriptive titles such as "Address
 issue #8576".
 -->
 
+☑️ PR Checklist
+----------------
 
-## PR checklist
 <!-- Please mark any checkboxes that do not apply to this PR as [N/A].-->
 
 - [ ] "closes #0000" is in the body of the PR description to [link the related issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
