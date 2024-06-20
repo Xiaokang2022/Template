@@ -36,16 +36,12 @@ and mark it with "[ ]" as "[X]".
 
 - [ ] The PR doesn't duplicate another PR which is already open  
 这个 PR 没有重复已经打开的另一个PR
-
 - [ ] `"closes #0000"` is in the body of the PR description to [link the related issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)  
 `"closes #0000"` 在 PR 描述的正文中来[链接相关议题](https://docs.github.com/zh/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
-
 - [ ] New or changed code has been tested  
 新的或更改的代码已测试
-
 - [ ] When it comes to API modifications, the docstrings of related classes or functions are also modified  
 涉及到 API 修改的，相关类或者函数的文档字符串也跟着修改了
-
 - [ ] I have read the contribution guide and followed all the instructions  
 我已经阅读了贡献指南，并按照所有的指示做了
 
